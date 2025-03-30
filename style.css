@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(109deg, #00052e, #330195fc, #01062c);
+  color: #f8f9fa;
+}
+h1,
+h2 {
+  color: #eb5b00;
+}
+.projectCard {
+  /* background: linear-gradient(43deg, #041c48, #001085db, #000318); */
+  background: linear-gradient(229deg, #38096ad6, #100832d9, #4e088f);
+}
+.projectCard a {
+  background-color: #047dff;
+  color: white;
+}
+.projectCard:hover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projectCard:hover > a {
+  color: white;
+  box-shadow: 5px 4px 5px black;
+}
+.projectCard:hover h3 {
+  color: #c2f093;
+  text-shadow: 2px 5px 5px rgb(0, 0, 0);
+}
+.projectCard:hover figcaption {
+  visibility: hidden;
+}
+.projectCard a:hover {
+  background: linear-gradient(0deg, #047dff, #00b7ff, #047dff) !important;
+  box-shadow: 5px 4px 5px black;
+}
+
+#proj01:hover {
+  background-image: url(./asset/images/project01_survey_form.png);
+}
+
+#proj02:hover {
+  background-image: url(./asset/images/project02_mondrian_grid_composition.png);
+}
+#proj03:hover {
+  background-image: url(./asset/images/project03_country_flag_CSS_HTML.png);
+}
+#proj04:hover {
+  background-image: url(./asset/images/project04_tinDog.png);
+}
+#proj05:hover {
+  background-image: url(./asset/images/project05_designAgency.png);
+}
+#proj06:hover {
+  background-image: url(./asset/images/project06_resume_basic_HTML.png);
+}
+.custom-shadow {
+  box-shadow: 2px 2px 11px 1px #4d00e3 !important;
+}
